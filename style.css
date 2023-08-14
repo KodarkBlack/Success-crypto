@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+.div-box {
+    background-color: #EEF1F6;
+    padding: 5%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.div-box:hover {
+    background-color: #407C87;
+    border-color: #EEF1F6;
+    transition: 0.5s;
+    padding: 5%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #D3E1E2;
+}
+
+#value {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+    font: bold;
+
+}
+
+#value-second {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+    font: bold;
+}
+
+#value-third {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+    font: bold;
+}
+
+#value-sup {
+    color: orange;
+}
+
+.div-box h1 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.div-box p {
+    text-align: center;
+    overflow: hidden;
+    font-style: italic;
+}
+
+.box-container {
+    margin: 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+@media screen and (max-width: 580px) {
+    .box-container {
+        display: block;
+    }
+    
+}
